@@ -3,7 +3,7 @@ defmodule Exlivery.Orders.Agent do
 
   alias Exlivery.Orders.Order
 
-  def start_link(), do: Agent.start_link(fn -> %{} end, name: __MODULE__)
+  def start_link, do: Agent.start_link(fn -> %{} end, name: __MODULE__)
 
   def increment_order(%Order{} = order) do
     uuid = UUID.uuid4()
