@@ -13,7 +13,7 @@ defmodule Exlivery.Orders.Item do
     |> build_item(description, category, quantity)
   end
 
-  def build(_description, _category, _unity_price, _quantity), do: {:error, "Entrada Invalida."}
+  def build(_description, _category, _unity_price, _quantity), do: {:error, "Invalid parameters"}
 
   defp build_item({:ok, unity_price}, description, category, quantity) do
     {:ok,
@@ -26,5 +26,5 @@ defmodule Exlivery.Orders.Item do
   end
 
   defp build_item(:error, _description, _category, _quantity),
-    do: {:error, "Preço Invalido."}
+    do: {:error, "Invalid price"}
 end

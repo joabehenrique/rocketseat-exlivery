@@ -15,5 +15,5 @@ defmodule Exlivery.Users.User do
      }}
   end
 
-  def build(_nome, _email, _idade, _cpf, _address), do: {:error, "Entrada Invalida."}
+  def build(_nome, _email, _idade, _cpf, _address), do: {:error, "Invalid parameters"}
 end

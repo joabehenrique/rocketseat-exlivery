@@ -9,5 +9,5 @@ defmodule Exlivery.Users.CreateOrUpdate do
   end
 
   def create_user({:ok, user}), do: Agent.increment_user(user)
-  def create_user({:error, _user}), do: {:error, "Entrada Inválida"}
+  def create_user({:error, _user}), do: {:error, "Invalid parameters"}
 end
