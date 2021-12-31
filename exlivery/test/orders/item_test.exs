@@ -17,7 +17,7 @@ defmodule Exlivery.Orders.ItemTest do
     test "when there are invalid category, returns an error" do
       response = Item.build("Burito de Frango", :americana, "56.89", 2)
 
-      expected_response = {:error, "Entrada Invalida."}
+      expected_response = {:error, "Invalid quantity or category"}
 
       assert response == expected_response
     end
@@ -25,7 +25,7 @@ defmodule Exlivery.Orders.ItemTest do
     test "when there is invalid price, return an error" do
       response = Item.build("Burito de Frango", :pizza, "price_pizza", 2)
 
-      expected_response = {:error, "Preço Invalido."}
+      expected_response = {:error, "Invalid price"}
 
       assert response == expected_response
     end
@@ -33,7 +33,7 @@ defmodule Exlivery.Orders.ItemTest do
     test "when there is invalid quantity, return an error" do
       response = Item.build("Burito de Frango", :pizza, "56.89", -12)
 
-      expected_response = {:error, "Entrada Invalida."}
+      expected_response = {:error, "Invalid quantity or category"}
 
       assert response == expected_response
     end

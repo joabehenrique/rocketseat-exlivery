@@ -11,7 +11,7 @@ defmodule Exlivery.Users.UserTest do
           "JOabe Henrique",
           "joabe.souza@hotmail.com",
           22,
-          "16295096719",
+          "12345678900",
           "Avenida Professor Duarte, n 89"
         )
 
@@ -26,11 +26,11 @@ defmodule Exlivery.Users.UserTest do
           "JOabe Henrique",
           "joabe.souza@hotmail.com",
           14,
-          "16295096719",
+          "12345678900",
           "Avenida Professor Duarte, n 89"
         )
 
-      expected_response = {:error, "Entrada Invalida."}
+      expected_response = {:error, "Invalid parameters"}
 
       assert response == expected_response
     end
