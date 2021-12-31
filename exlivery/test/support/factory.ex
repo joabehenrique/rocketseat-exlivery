@@ -9,7 +9,7 @@ defmodule Exlivery.Factory do
     %User{
       address: "Avenida Professor Duarte, n 89",
       age: 22,
-      cpf: "16295096719",
+      cpf: "12345678900",
       email: "joabe.souza@hotmail.com",
       name: "JOabe Henrique"
     }
@@ -42,7 +42,7 @@ defmodule Exlivery.Factory do
         }
       ],
       total_price: Decimal.new("227.56"),
-      user_cpf: "16295096719"
+      user_cpf: "12345678900"
     }
   end
 end
