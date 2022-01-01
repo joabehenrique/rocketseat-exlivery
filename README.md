@@ -115,7 +115,7 @@ We thank the following people who contributed to this project:
 
 Do you want to be part of this project? Click [here](https://github.com/joabehenrique/rocketseat-exlivery/blob/master/exlivery/CONTRIBUTING.md) and read how to contribute.
 
-## 📝 Licença
+## 📝 License
 
 This project is under license. See the [license](https://github.com/joabehenrique/rocketseat-exlivery/blob/master/exlivery/LICENSE.md) file for more details.
 
