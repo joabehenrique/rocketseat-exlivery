@@ -98,18 +98,13 @@ Alternatively, see the GitHub documentation at [how to create a pull request](ht
 
 We thank the following people who contributed to this project:
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/64988299" width="100px" style="border-radius: 90px" alt="Foto do Joabe Henrique no GitHub"/><br>
-        <sub>
-          <b>Joabe Henrique [Author]</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
+<a href="#">
+    <img src="https://avatars3.githubusercontent.com/u/64988299" width="100px" style="border-radius: 90px" alt="Foto do Joabe Henrique no GitHub"/><br>
+    <sub>
+        <b>Joabe Henrique [Author]</b>
+    </sub>
+    </a>
+</td>
 
 ## 😄 Be one of the contributors<br>
 
