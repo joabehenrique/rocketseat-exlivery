@@ -117,6 +117,6 @@ Do you want to be part of this project? Click [here]("./exlivery/CONTRIBUTING.md
 
 ## 📝 Licença
 
-This project is under license. See the [license](LICENSE.md) file for more details.
+This project is under license. See the [license](./exlivery/LICENSE.md) file for more details.
 
 [⬆ Back to top](#Exlivery)<br>
