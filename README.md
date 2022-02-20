@@ -1,4 +1,4 @@
-# Exlivery
+# 🚀Exlivery
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/joabehenrique/rocketseat-exlivery?style=flat)
 ![GitHub language count](https://img.shields.io/github/languages/count/joabehenrique/rocketseat-exlivery?style=flat)
@@ -118,5 +118,3 @@ Do you want to be part of this project? Click [here](https://github.com/joabehen
 ## 📝 License
 
 This project is under license. See the [license](https://github.com/joabehenrique/rocketseat-exlivery/blob/master/exlivery/LICENSE.md) file for more details.
-
-[⬆ Back to top](#Exlivery)<br>
