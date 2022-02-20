@@ -14,7 +14,7 @@ Before you begin, make sure you have met the following requirements:
 
 - You need the latest version of `Elixir\Erlang` on your machine.
 
-If you need installation instructions, [click here]("https://elixir-lang.org/install.html").
+If you need installation instructions, [click here](https://elixir-lang.org/install.html).
 
 ## 🚀 Installing Exlivery
 
